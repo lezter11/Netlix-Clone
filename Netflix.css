@@ -1,0 +1,406 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    max-width: 75vw;
+    margin: auto;
+    justify-content: space-between;
+    /* gap: 28px; */
+    height: 80px;
+}
+
+.main nav img {
+    color: rgb(237, 27, 27);
+    width: 150px;
+    position: relative;
+    z-index: 10;
+}
+
+.main nav :nth-child(2) {
+    display: flex;
+    gap: 20px;
+}
+
+nav button {
+    z-index: 10;
+    position: relative;
+}
+
+.translation {
+    padding: 6px 35px;
+    border-radius: 5px;
+    background-color: rgb(0 0 0 / 50%);
+    color: white;
+    border: 1px solid rgb(164 164 164 / 50%);
+    font-size: 17px;
+}
+
+.red-1 {
+    background-color: red;
+    padding: 7px 14px;
+    border-radius: 4px;
+    color: white;
+    font-size: 15px;
+}
+
+.main {
+    height: 670px;
+    background-image: url("Images/background.jpg");
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px, 100vw);
+    top: 0;
+
+}
+
+.main .box {
+    background-color: black;
+    opacity: 0.66;
+    height: 670px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+
+.hero {
+    height: calc(100% - 80px);
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    gap: 21px;
+    font-family: sans-serif;
+    padding: 60px 30px;
+}
+
+.hero> :first-child {
+    font-size: 34px;
+    font-weight: 900;
+    z-index: 10;
+    text-align: center;
+}
+
+.hero> :nth-child(2) {
+    font-size: 24px;
+    z-index: 10;
+    font-weight: 400;
+    text-align: center;
+}
+
+.hero> :nth-child(3) {
+    font-size: 20px;
+    z-index: 10;
+    text-align: center;
+}
+
+.Zero {
+    display: flex;
+    gap: 4px;
+    justify-content: center;
+}
+
+.Zero> :first-child {
+    position: relative;
+    padding: 8px 121px 8px 18px;
+    font-size: 15px;
+    border-radius: 6px;
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 1px solid rgba(246, 246, 246, 0.3);
+    color: aliceblue;
+}
+
+.Zero> :nth-child(2) {
+    background-color: red;
+    z-index: 10;
+    position: relative;
+    padding: 10px 43px;
+    color: white;
+    font-size: 24px;
+    border-radius: 4px;
+    font-weight: 700;
+}
+
+.separation {
+    position: relative;
+    bottom: 120px;
+    background-color: rgb(109, 104, 104);
+    height: 7px;
+}
+
+.first{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+
+.secImg {
+    position: relative;
+    right: 50px;
+}
+
+.secImg img {
+    width: 555px;
+    position: relative;
+    z-index: 10;
+}
+
+.secImg video {
+    position: absolute;
+    top: 120px;
+    right: 72px;
+    width: 412px;
+}
+
+section.first>div {
+    display: flex;
+    flex-direction: column;
+    padding: 34px 0;
+    margin: 0px 100px 0px 100px;
+    gap: 25px;
+}
+
+section.first>div :nth-child(1) {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+
+section.first>div :nth-child(2) {
+    font-size: 24px;
+
+}
+
+.separation-1 {
+    position: relative;
+    background-color: rgb(109, 104, 104);
+    height: 7px;
+}
+
+
+.second>div{
+    position: relative;
+}
+
+.third .secImg video {
+    position: absolute;
+    top: 60px;
+    right: 110px;
+    width: 340px;
+}
+
+.fourth .secImg img{
+    width: 560px;
+    position: relative;
+    left: 200px;
+    z-index: 10;
+}
+
+.Faq{
+    color: white;
+    background-color: black;
+}
+
+.Faq h2{
+    text-align: center;
+    font-size: 48px;
+    padding: 40px;
+}
+
+.Faq .faqbox:hover {
+    background-color: #414141;
+}
+
+
+.Faq .faqbox{
+    transition: all 0.2s ease-out;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    background-color: rgb(45,45,45);
+    width: 70vw;
+    margin: auto;
+    padding: 25px 30px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.separation-2{
+    position: relative;
+    background-color: rgb(7, 0, 0);
+    height: 7px;
+}
+
+.endsection{
+    font-size: 22px;
+    text-align: center;
+    padding: 25px;
+    /* margin: auto; */
+    line-height: 60px;
+}
+
+footer{
+    background-color: black;
+}
+
+.foot{
+    position: relative;
+    left: 70px;
+    max-width: 70vw;
+}
+
+.questions{
+    color: rgba(255, 255, 255, 0.7);
+    padding: 75px 0 0 100px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.footer-grid{
+    display: grid;
+    grid-template-columns: 230px 230px 230px 230px;
+    column-gap: -6px;
+    row-gap: 25px;
+    padding: 25px 0px;
+    position: relative;
+    left: 100px;
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: underline;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.footer-grid a{
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.footer-translation{
+    position: relative;
+    left: 94px;
+    width: 20vw;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.netflix-india{
+    color: rgba(255, 255, 255, 0.7);
+    position: relative;
+    left: 94px;
+    width: 20vw;
+    padding-top: 20px;
+    padding-bottom: 70px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+@media screen and (max-width: 1300px) {
+    nav {
+        max-width: 90vw;
+    }
+
+    .main nav img {
+        width: 80px;
+    }
+
+    .main {
+        height: 560px;
+    }
+
+    .main .box {
+        height: 560px;
+    }
+
+    .separation {
+        bottom: 44px;
+    }
+
+    .translation {
+        padding: 6px 15px;
+        font-size: 15px;
+    }
+
+    .red-1 {
+        padding: 5px 10px;
+    }
+
+    .hero {
+        height: 460px;
+        padding: 30px 20px;
+    }
+
+    .hero> :first-child {
+        font-size: 32px;
+        font-weight: 700;
+    }
+
+    .first {
+        flex-wrap: wrap;
+    }
+
+    .secImg img {
+        width: 205px;
+    position: relative;
+    left: 60px;
+    }
+
+    .secImg video {
+        top: 70px;
+        width: 160px;
+        left: 80px;
+    }
+
+    .third .secImg video {
+        width: 132px;
+        /* position: relative; */
+        left: 95px;
+        top: 45px;
+    }
+
+    .Zero {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .fourth .secImg img {
+        width: 205px;
+        position: relative;
+        left: 80px;
+        z-index: 10;
+    }
+
+}
+
+
+
+    @media screen and (max-width: 1300px) {
+        .foot {
+            position: relative;
+            max-width: 70vw;
+        }
+
+        .questions{
+            position: relative;
+            right: 100px;
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            position: relative;
+            left: 0;
+        }
+    }
